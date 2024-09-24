@@ -1,0 +1,110 @@
+$date
+	Wed Jul 31 11:39:41 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module Traffic_light_control_tb $end
+$var wire 3 ! light_S [2:0] $end
+$var wire 3 " light_MT [2:0] $end
+$var wire 3 # light_M2 [2:0] $end
+$var wire 3 $ light_M1 [2:0] $end
+$var reg 1 % clk $end
+$var reg 1 & rst $end
+$scope module dut $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var parameter 32 ' S1 $end
+$var parameter 32 ( S2 $end
+$var parameter 32 ) S3 $end
+$var parameter 32 * S4 $end
+$var parameter 32 + S5 $end
+$var parameter 32 , S6 $end
+$var parameter 32 - sec2 $end
+$var parameter 32 . sec3 $end
+$var parameter 32 / sec5 $end
+$var parameter 32 0 sec7 $end
+$var reg 4 1 count [3:0] $end
+$var reg 3 2 light_M1 [2:0] $end
+$var reg 3 3 light_M2 [2:0] $end
+$var reg 3 4 light_MT [2:0] $end
+$var reg 3 5 light_S [2:0] $end
+$var reg 3 6 ps [2:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b111 0
+b101 /
+b11 .
+b10 -
+b101 ,
+b100 +
+b11 *
+b10 )
+b1 (
+b0 '
+$end
+#0
+$dumpvars
+bx 6
+bx 5
+bx 4
+bx 3
+bx 2
+bx 1
+0&
+0%
+bx $
+bx #
+bx "
+bx !
+$end
+#1
+b100 !
+b100 5
+b100 "
+b100 4
+b1 #
+b1 3
+b1 $
+b1 2
+b0 1
+b0 6
+1&
+1%
+#2
+0%
+#3
+b1 1
+1%
+0&
+#4
+0%
+#5
+b10 1
+1%
+#6
+0%
+#7
+b11 1
+1%
+#8
+0%
+#9
+b100 1
+1%
+#10
+0%
+#11
+b101 1
+1%
+#12
+0%
+#13
+b110 1
+1%
